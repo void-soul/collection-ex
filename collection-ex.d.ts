@@ -49,7 +49,7 @@ declare namespace CollectionEx {
      * @param values 初始数组
      * @param onNotExist 当不存在时作何操作?
      */
-    constructor (key: keyof T, onExist: (oldData: T, newData: T) => void, replaceWhenExits = false, values: ReadonlyArray<T> | null, onNotExist: (newData: T) => void);
+    constructor (key: keyof T, onExist: (oldData: T, newData: T) => void, replaceWhenExits: boolean, values: ReadonlyArray<T> | null, onNotExist: (newData: T) => void);
     /**
      * @param key 识别是否存在的对象的属性名
      * @param onExist 当存在时作何操作? oldData/newData 哪个将添加到set,由replaceItemWhenExits决定,默认是oldData生效
