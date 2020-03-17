@@ -1,22 +1,22 @@
 {
   "name": "collection-ex",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Extend the set/map so that it can support objects",
   "keywords": [
     "set",
     "map",
     "object"
   ],
-  "homepage": "https://github.com/void-soul/set-ex",
+  "homepage": "https://github.com/void-soul/collection-ex",
   "bugs": {
-    "url": "https://github.com/void-soul/set-ex/issues"
+    "url": "https://github.com/void-soul/collection-ex/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:void-soul/set-ex.git"
+    "url": "git@github.com:void-soul/collection-ex.git"
   },
   "author": "void-soul",
-  "types": "set-ex.d.ts",
+  "types": "collection-ex.d.ts",
   "files": [
     "index.js",
     "collection-ex.d.ts",

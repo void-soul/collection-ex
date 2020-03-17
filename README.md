@@ -3,7 +3,7 @@
 ## SetEx
 
 ```
-const {SetEx} from 'collection-ex';
+import {SetEx} from 'collection-ex';
 
 const set = new SetEx<Cpuser>('userid');
 
@@ -20,7 +20,7 @@ set.size(); // 2
 ## MapEx
 
 ```
-const {MapEx} from 'collection-ex';
+import {MapEx} from 'collection-ex';
 
 const map = new MapEx<string,Cpuser>({userid: 1,name: 'one'});
 Array.from(map.keys()); // [userid, name]
@@ -29,7 +29,7 @@ Array.from(map.keys()); // [userid, name]
 ## MapClass
 
 ```
-const {MapClass} from 'collection-ex';
+import {MapClass} from 'collection-ex';
 
 const map = new MapClass<Cpuser>({userid: 1,name: 'one'});
 map.delete('name');
