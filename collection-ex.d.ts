@@ -78,7 +78,7 @@ declare namespace CollectionEx {
       * @param {T} value
       * @returns {this}
       */
-    add2(value: T): this;
+    add2(value: T): T;
     /**
      * 添加并返回添加成功的对象:可能是新加入集合的，也可能是原本存在的
      * @param {...T[]} items

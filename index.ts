@@ -70,9 +70,9 @@ export class SetEx<T> {
     * @param {T} value
     * @returns {this}
     */
-  add2(value: T): this {
-    this.addAll2(value);
-    return this;
+  add2(value: T): T {
+    const item = this.addAll2(value);
+    return item[0];
   }
   /**
    * 添加并返回添加成功的对象:可能是新加入集合的，也可能是原本存在的
