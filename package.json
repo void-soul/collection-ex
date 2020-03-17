@@ -1,6 +1,6 @@
 {
   "name": "collection-ex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Extend the set/map so that it can support objects",
   "keywords": [
     "set",

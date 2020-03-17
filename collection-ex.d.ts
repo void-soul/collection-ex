@@ -1,5 +1,5 @@
 declare namespace CollectionEx {
-  class SetEx {
+  class SetEx<T> {
     /**
      * 设置 当存在时作何操作? 回调
      * @memberof SetEx
